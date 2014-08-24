@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+body {
+  /* background: url(universe-62a.jpg) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sendmsgbox { 
+	z-index: 10; 
+	position: fixed; 
+    margin: 1in;
+    right: 10px;
+    height: 30%;
+    width: 30%;
+    background-color: #FFFFCC;
+    top: 50px;
+}
+
+#getmsgbox {
+	width:60%;
+	min-height:100%;
+	position: relative;
+	top: 75px;
+	left: 20px; 
+	background: #D1D1FF; 
+	overflow: auto; }
+	
+#header {
+	z-index: 2;
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	top: 0;
+	background: #99CCFF;
+}
+
+#dec {
+	
+}
